@@ -1,0 +1,26 @@
+node_modules
+.next
+out
+build
+.env
+.env.local
+.env*.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.data
+.vercel
+.env*
+
+# Netlify build artefacts
+.netlify
+
+# Screenshots / browser profile data (dev tooling only)
+.shots
+
+# Scripts output
+.seed-tmp
+
+# OS
+Thumbs.db
+ehthumbs.db

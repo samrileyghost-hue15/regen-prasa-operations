@@ -1,0 +1,32 @@
+{
+  "name": "regen-railway-operations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REGEN x PRASA Railway Operations & Infrastructure Management System",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "hash": "node scripts/make-password.mjs",
+    "seed:sql": "node scripts/export-seed.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "lucide-react": "^0.475.0",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.6",
+    "@tailwindcss/postcss": "^4.1.8",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  }
+}

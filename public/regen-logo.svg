@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" role="img" aria-label="Regen — Built to last. Designed to heal.">
+  <defs>
+    <!-- Brand arc: lime-green → brand-green → deep navy -->
+    <linearGradient id="arc" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%"   stop-color="#a8d44e"/>
+      <stop offset="50%"  stop-color="#5aad3f"/>
+      <stop offset="100%" stop-color="#1a3159"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── Track rails, perspective vanishing up-right ── -->
+  <path d="M 12 100 L 28 20" stroke="#1a3159" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 38 100 L 32 20" stroke="#1a3159" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Sleepers: wider at base -->
+  <line x1="10"  y1="92" x2="40"  y2="92" stroke="#1a3159" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="12"  y1="81" x2="39"  y2="81" stroke="#1a3159" stroke-width="2.7" stroke-linecap="round"/>
+  <line x1="14"  y1="70" x2="37"  y2="70" stroke="#1a3159" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="17"  y1="59" x2="35"  y2="59" stroke="#1a3159" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="20"  y1="48" x2="33"  y2="48" stroke="#1a3159" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="23"  y1="38" x2="31"  y2="38" stroke="#1a3159" stroke-width="1.1" stroke-linecap="round"/>
+
+  <!-- ── R letterform in deep brand navy ── -->
+  <!-- Stem -->
+  <path d="M 32 20 L 32 100" stroke="#1a3159" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Bowl -->
+  <path d="M 32 20 Q 58 20 58 40 Q 58 60 40 60 L 32 60"
+        stroke="#1a3159" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Leg -->
+  <path d="M 44 60 L 68 100" stroke="#1a3159" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- ── Green arc sweeps (signature brand element) ── -->
+  <path d="M 2 36 Q 15 4 42 10 Q 60 15 72 30"
+        stroke="url(#arc)" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+  <path d="M 6 48 Q 17 20 40 24 Q 58 28 68 42"
+        stroke="url(#arc)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- ── Wordmark ── -->
+  <!-- "R" in brand gradient -->
+  <text x="85" y="80"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="66" font-weight="900" letter-spacing="-2"
+        fill="url(#arc)">R</text>
+  <!-- "egen" in white (on dark background) -->
+  <text x="128" y="80"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="66" font-weight="900" letter-spacing="-2"
+        fill="#ffffff">egen</text>
+
+  <!-- Tagline -->
+  <text x="86" y="96"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="8.5" font-weight="600" letter-spacing="2.8"
+        fill="#94a3b8">BUILT TO LAST. DESIGNED TO HEAL.</text>
+</svg>
